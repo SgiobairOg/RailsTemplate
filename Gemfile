@@ -10,7 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spring', group: :development
-gem 'letter_opener', group: :development
+gem 'letter_opener', '>= 1.2.0', group: :development
 gem 'quiet_assets', group: :development
 gem 'haml-rails'
 gem 'devise'
