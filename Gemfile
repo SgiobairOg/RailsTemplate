@@ -1,19 +1,19 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.1.1'
+gem 'rails', '7.1.0'
 gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.0.0'
-gem 'jquery-rails'
+gem 'coffee-rails', '~> 4.2.2'
+gem 'jquery-rails', '>= 4.0.1'
 gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'jbuilder', '~> 2.6', '>= 2.6.4'
+gem 'sdoc', '~> 1.0.0', group: :doc
 gem 'spring', group: :development
-gem 'letter_opener', group: :development
-gem 'quiet_assets', group: :development
-gem 'haml-rails'
-gem 'devise'
+gem 'letter_opener', '>= 1.3.0', group: :development
+gem 'quiet_assets', '>= 1.0.3', group: :development
+gem 'haml-rails', '>= 1.0.0'
+gem 'devise', '>= 4.7.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
